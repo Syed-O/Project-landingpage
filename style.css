@@ -21,16 +21,16 @@ html, body {
 }
 
 .top { 
-    background-color: #1f2937;
-    color: #f9faf8;
-    display: flex;
-    flex-direction: column;
+  background-color: #1f2937;
+  color: #f9faf8;
+  display: flex;
+  flex-direction: column;
 }
 
 .header {
-    display:flex;
-    justify-content: space-around;
-    margin-top: 12px;
+  display:flex;
+  justify-content: space-around;
+  margin-top: 12px;
 }
 
 .logo {
@@ -88,6 +88,47 @@ button {
   color: #f9faf8;
 }
 
+.second {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 48px;
+  padding-top: 48px;
+  padding-bottom: 60px;
+}
+
+.rinfo {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
+}
+
+.cards {
+  display: flex;
+  gap: 48px;
+}
+
+.cardbox {
+  width: 150px;
+}
+
+.card {
+  border: 3px solid #3882f6;
+  box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+  border-radius: 8px;
+  width: 150px;
+  height: 150px;
+}
+
+.subtext {
+  text-wrap: wrap;
+  text-align: center;
+  padding-top: 10px;
+  font-weight: lighter;
+}
+
 .third {
   background-color: #e5e7eb;
 }
+
