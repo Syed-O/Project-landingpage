@@ -132,17 +132,19 @@ button {
   background-color: #e5e7eb;
   padding: 60px 94px;
   color: #1f2937;
+  text-align: right;
 }
 
 .quote p{
   font-size: 36px;
   font-style: italic;
+  text-align: left;
 }
 
 .quote cite{
   font-weight: bold;
   font-style: normal;
   font-size: 24px;
-  text-align: center;
+  padding-right: 12px;
 }
 
